@@ -1,6 +1,7 @@
 public class MyConverter {
 
     private double taux;
+    // Exo 4 : ajouter la currency à la classe et l'afficher au moment de la conversion
     private String currency;
 
     public MyConverter(double taux, String currency) {
