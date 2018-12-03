@@ -17,5 +17,12 @@ public class Main {
          * bitcoinConverter.convertFromEuros(100); bitcoinConverter.convertToEuros(100);
          */
 
+        /*
+         * Exercice 2 : proposer à l'utilisateur quel convertisseur il veut utiliser.
+         * tapes à suivre: 1 - Afficher la question à l'utilisateur (1) USD ou (2)
+         * Bitcoin?" 2 - Faire une saisie clavier 3 - Faire un test "if" sur la valeur
+         * saisie pour appeler converFromEuros du BON convertisseur
+         */
+
     }
 }
