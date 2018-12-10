@@ -14,7 +14,9 @@ https://code.visualstudio.com/
 
 #### Déclaration variable
 
-`int myVariable = 10;`
+```
+int myVariable = 10;
+```
 
 #### If
 
