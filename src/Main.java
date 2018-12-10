@@ -18,6 +18,12 @@ public class Main {
          * usdConverter.convertFromEuros(1); usdConverter.convertToEuros(10);
          * bitcoinConverter.convertFromEuros(100); bitcoinConverter.convertToEuros(100);
          */
+        System.out.println("Montant en euros ");
+        Scanner scanner = new Scanner(System.in);
+        Double amount = scanner.nextDouble();
+        System.out.println("toto" + amount);
+        scanner.close();
+    
 
         /*
          * Exercice 2 : proposer à l'utilisateur quel convertisseur il veut utiliser.
