@@ -10,16 +10,47 @@ Code academy - Java - Converter project
 
 https://code.visualstudio.com/
 
-# Cours 2 - Création de mon premier Convertisseur
+# Rappel du code déjà vu
+
+#### Déclaration variable
+
+`int myVariable = 10;`
+
+#### If
+
+```
+if (milkOnFridge()==true) {
+  drinkMilk();
+} else {
+  buySomeMilk();
+}
+```
+
+#### Boucle while (tant que)
+
+```
+while (haveSomeGameOfThronesLeft()==true) {
+  watch1Episode();
+}
+```
+
+#### Saisie clavier
+
+```
+/* Création du scanner */
+Scanner scanner = new Scanner(System.in);
+
+myNumber = scanner.nextInt();
+
+/* Cloture du scanner*/
+scanner.close();
+```
+
+# Cours 4 - Création d'un jeu où il faut trouver le numéro
 
 Notions utilisées:
 
-- Classe vs Objet
 - Création de variables
-  - De classe
-  - de méthode
-- Création de méthodes
-- Instanciation d'objet (un convertisseur USD et un convertisseur Bitcoin)
-- Utilisation de types primitifs
-  - String : chaine de caractère "Euros" "USD" ...
-  - Chiffre décimale : 2.33 ...
+- Conditions If
+- Boucle while ("tant que")
+- Saisie clavier
