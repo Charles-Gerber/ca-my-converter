@@ -1,36 +1,38 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        // Convertisseur 1 : USD <=> EUR
-        MyConverter usdConverter = new MyConverter(0.876251, "USD");
-
-        // Convertisseur 2 : Bitcoin <=> EUR
-        MyConverter bitcoinConverter = new MyConverter(0.12, "Bitcoin");
-
-        // Exercice 1 : Faire un saisie clavier du montant en Euros puis la convertir en
-        // USD et Bitcoin
-
-        /*
-         * Pour rappel, voici comment nous convertissions la semaine dernière
-         * usdConverter.convertFromEuros(1); usdConverter.convertToEuros(10);
-         * bitcoinConverter.convertFromEuros(100); bitcoinConverter.convertToEuros(100);
-         */
-        System.out.println("Montant en euros ");
+        // Trucs qu'on vous "donne" pour votre exercice
         Scanner scanner = new Scanner(System.in);
-        Double amount = scanner.nextDouble();
-        System.out.println("toto" + amount);
+        Random random = new Random();
+
+        // Début de la ZONE d'exercice 🤓
+        int numberToFind = random.nextInt(100);
+
+        // Exercice 2 :
+        // 1 - Saisie clavier du joueur pour lui faire deviner
+        // 2 - Si il est en dessous lui dire "plus grand"
+        // Sinon Si il est au dessus lui dire "plus petit"
+        // Sinon le félicité ==> il a trouvé le résultat!
+
+        // Exerice 3 : mettre autour du code de l'exercice 2 une boucle while. Pour cela
+        // il va vous falloir:
+        // 1 - un "while"
+        // 2 - une variable qui vous dit si la partie est finie (de type boo... 😉)
+        // 3 - probablement un peu d'aide
+
+        // Exercice 1 :
+        // afficher le numéro que le joueur devait trouver
+
+        // Exercice 4 :
+        // Ajouter à l'affichage final: le nombre de tentatives du joueur (exemple :
+        // Vous avez mis 5 essais")
+
+
+        // Rien à voir avec les exercices:
         scanner.close();
-    
-
-        /*
-         * Exercice 2 : proposer à l'utilisateur quel convertisseur il veut utiliser.
-         * tapes à suivre: 1 - Afficher la question à l'utilisateur (1) USD ou (2)
-         * Bitcoin?" 2 - Faire une saisie clavier 3 - Faire un test "if" sur la valeur
-         * saisie pour appeler converFromEuros du BON convertisseur
-         */
-
     }
 }
