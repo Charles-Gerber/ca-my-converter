@@ -18,6 +18,12 @@ https://code.visualstudio.com/
 int myVariable = 10;
 ```
 
+#### Affichage
+
+```
+System.out.println("bla bla bla");
+```
+
 #### If
 
 ```
